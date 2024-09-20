@@ -3,7 +3,7 @@ pipeline {
         stages {
             stage("Checkout") {
                 steps {
-                    git 'https://github.com/vamandeshmukh/deloitte-jpa-demo-sep-2024.git'
+                    git 'https://github.com/Aditya13032001/jpa-maven-demo.git'
                 }
             }
             stage('Build') {
